@@ -14,6 +14,6 @@ def test_sub_f():
 
 
 def test_mut_f():
-    assert mut_f(2, 1) == 1
+    assert mut_f(2, 1) == 2
     assert mut_f(0, 1) == 0
     assert mut_f(-2, -1) == 2
